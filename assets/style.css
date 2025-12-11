@@ -101,7 +101,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -134,6 +134,11 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	color: #000;
 }
 
 .quote {
@@ -353,4 +358,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
